@@ -1,0 +1,27 @@
+{
+    "name": "frankyonnetti/sevenalter",
+    "description": "Seven Alter is an admin theme for Drupal.",
+    "type": "drupal-theme",
+    "license": "MIT",
+    "homepage": "https://github.com/frankyonnetti/sevenalter",
+    "support": {
+        "issues": "https://github.com/frankyonnetti/sevenalter/issues",
+        "source": "https://github.com/frankyonnetti/sevenalter"
+    },
+    "authors": [
+        {
+            "name": "Frank Yonnetti",
+            "homepage": "https://yonnetti.net",
+            "role": "Maintainer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    ],
+    "require": {
+        "frankyonnetti/sevenalter_toolbar": "master"
+    }
+}
