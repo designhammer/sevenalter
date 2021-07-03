@@ -231,7 +231,7 @@ body {
   font-size: 0.8125rem;
   font-weight: 600;
   text-shadow: none;
-  border: 2px solid #004f80;
+  border: 1px solid #004f80;
   border-radius: 3px;
   background: #fafafa url("../images/icons/fa-regular/dark/chevron-down.svg") no-repeat 94% 50%;
   background-size: 14px auto;
@@ -249,7 +249,7 @@ body {
 .layout-container .button {
   color: #004f80;
   text-shadow: none;
-  border: 2px solid #004f80;
+  border: 1px solid #004f80;
   border-radius: 3px;
   background-color: #fafafa;
   background-image: none;
@@ -257,7 +257,7 @@ body {
 }
 .layout-container .button:hover, .layout-container .button:focus {
   color: #fff;
-  border-width: 2px;
+  border-width: 1px;
   border-color: #004f80;
   background-color: #004f80;
   background-image: none;
@@ -266,7 +266,7 @@ body {
 .layout-container .button--small {
   color: #004f80;
   text-shadow: none;
-  border: 2px solid #004f80;
+  border: 1px solid #004f80;
   border-radius: 3px;
   background-color: #fafafa;
   background-image: none;
@@ -275,7 +275,7 @@ body {
 }
 .layout-container .button--small:hover, .layout-container .button--small:focus {
   color: #fff;
-  border-width: 2px;
+  border-width: 1px;
   border-color: #004f80;
   background-color: #004f80;
   background-image: none;
@@ -284,7 +284,7 @@ body {
 .layout-container .form-submit {
   color: #004f80;
   text-shadow: none;
-  border: 2px solid #004f80;
+  border: 1px solid #004f80;
   border-radius: 3px;
   background-color: #fafafa;
   background-image: none;
@@ -292,7 +292,7 @@ body {
 }
 .layout-container .form-submit:hover, .layout-container .form-submit:focus {
   color: #fff;
-  border-width: 2px;
+  border-width: 1px;
   border-color: #004f80;
   background-color: #004f80;
   background-image: none;
@@ -302,15 +302,14 @@ body {
   color: #fff;
   text-shadow: none;
   border-color: #004f80;
-  border-radius: 2px;
+  border-radius: 3px;
   background-color: #004f80;
   background-image: none;
   padding: 0.62rem 1.75rem !important;
 }
 .layout-container .button--primary:hover, .layout-container .button--primary:focus {
-  border-width: 2px;
-  border-color: #00304d;
-  background-color: #00304d;
+  border-width: 1px;
+  background-color: #006eb3;
   background-image: none;
   box-shadow: none;
 }
@@ -318,15 +317,14 @@ body {
   color: #fff;
   text-shadow: none;
   border-color: #7cb342;
-  border-radius: 2px;
+  border-radius: 3px;
   background-color: #7cb342;
   background-image: none;
   padding: 0.62rem 1.75rem !important;
 }
 .layout-container .button--primary[value=Save]:hover, .layout-container .button--primary[value=Save]:focus {
-  border-width: 2px;
-  border-color: #628e34;
-  background-color: #628e34;
+  border-width: 1px;
+  background-color: #95c563;
   background-image: none;
   box-shadow: none;
 }
@@ -334,15 +332,14 @@ body {
   color: #fff;
   text-shadow: none;
   border-color: #e0e0e0;
-  border-radius: 2px;
+  border-radius: 3px;
   background-color: #e0e0e0;
   background-image: none;
   padding: 0.62rem 1.75rem !important;
 }
 .layout-container .button--danger:hover, .layout-container .button--danger:focus {
-  border-width: 2px;
-  border-color: #c7c7c7;
-  background-color: #c7c7c7;
+  border-width: 1px;
+  background-color: #fafafa;
   background-image: none;
   box-shadow: none;
 }
@@ -361,8 +358,8 @@ body {
 .layout-container .dropbutton-multiple .dropbutton-widget {
   color: #333;
   text-shadow: none !important;
-  border: 2px solid #004f80 !important;
-  border-radius: 2px !important;
+  border: 1px solid #004f80 !important;
+  border-radius: 3px !important;
   background-color: #fafafa !important;
   background-image: none !important;
 }
@@ -442,7 +439,7 @@ body {
 .layout-container .entity-meta {
   border-right: 1px solid #bdbdbd;
   border-left: 1px solid #bdbdbd;
-  border-radius: 2px;
+  border-radius: 3px;
   background-color: #eeeeee;
   box-shadow: none;
 }
@@ -480,7 +477,7 @@ body {
 .layout-container .views-admin .views-displays #views-display-menu-tabs .tabs__tab a {
   color: #004f80;
   text-shadow: none;
-  border: 2px solid #004f80;
+  border: 1px solid #004f80;
   border-radius: 3px;
   background-color: #fafafa;
   background-image: none;
@@ -490,7 +487,7 @@ body {
 }
 .layout-container .views-admin .views-displays #views-display-menu-tabs .tabs__tab a:hover, .layout-container .views-admin .views-displays #views-display-menu-tabs .tabs__tab a:focus {
   color: #fff;
-  border-width: 2px;
+  border-width: 1px;
   border-color: #004f80;
   background-color: #004f80;
   background-image: none;
@@ -504,7 +501,7 @@ body {
 .layout-container .views-admin .views-displays #views-display-menu-tabs .add a {
   color: #004f80;
   text-shadow: none;
-  border: 2px solid #004f80;
+  border: 1px solid #004f80;
   border-radius: 3px;
   background-color: #fafafa;
   background-image: none;
@@ -514,7 +511,7 @@ body {
 }
 .layout-container .views-admin .views-displays #views-display-menu-tabs .add a:hover, .layout-container .views-admin .views-displays #views-display-menu-tabs .add a:focus {
   color: #fff;
-  border-width: 2px;
+  border-width: 1px;
   border-color: #004f80;
   background-color: #004f80;
   background-image: none;
@@ -552,8 +549,8 @@ body {
   background-color: #f5f5f5;
 }
 .layout-container .views-admin .views-displays .dropbutton-single .dropbutton-action a {
-  border: 2px solid #004f80;
-  border-radius: 2px !important;
+  border: 1px solid #004f80;
+  border-radius: 3px !important;
   background-color: #f5f5f5;
   background-image: none;
 }
@@ -612,7 +609,7 @@ body {
   font-size: 0.8125rem;
   font-weight: 600;
   text-shadow: none;
-  border: 2px solid #004f80;
+  border: 1px solid #004f80;
   border-radius: 3px;
   background: #fafafa url("../images/icons/fa-regular/dark/chevron-down.svg") no-repeat 94% 50%;
   background-size: 14px auto;
@@ -647,7 +644,7 @@ body {
 .ui-dialog .ui-dialog-buttonpane .form-submit {
   color: #004f80;
   text-shadow: none;
-  border: 2px solid #004f80;
+  border: 1px solid #004f80;
   border-radius: 3px;
   background-color: #fafafa;
   background-image: none;
@@ -655,7 +652,7 @@ body {
 }
 .ui-dialog .ui-dialog-buttonpane .form-submit:hover, .ui-dialog .ui-dialog-buttonpane .form-submit:focus {
   color: #fff;
-  border-width: 2px;
+  border-width: 1px;
   border-color: #004f80;
   background-color: #004f80;
   background-image: none;
@@ -665,15 +662,14 @@ body {
   color: #fff;
   text-shadow: none;
   border-color: #1976d2;
-  border-radius: 2px;
+  border-radius: 3px;
   background-color: #1976d2;
   background-image: none;
   padding: 0.62rem 1.75rem !important;
 }
 .ui-dialog .ui-dialog-buttonpane .form-submit.button--primary:hover, .ui-dialog .ui-dialog-buttonpane .form-submit.button--primary:focus {
-  border-width: 2px;
-  border-color: #145ca4;
-  background-color: #145ca4;
+  border-width: 1px;
+  background-color: #378fe7;
   background-image: none;
   box-shadow: none;
 }

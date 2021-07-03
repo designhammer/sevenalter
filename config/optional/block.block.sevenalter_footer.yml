@@ -1,3 +1,4 @@
+uuid: f3ecd43f-eca3-466e-89a0-03b395057d64
 langcode: en
 status: true
 dependencies:
@@ -7,10 +8,12 @@ dependencies:
     - system
   theme:
     - sevenalter
+_core:
+  default_config_hash: 8zRjTNbfNAJ94lQpZDu6MkyD87GYJ2zpH9VQPVmRbcM
 id: sevenalter_footer
 theme: sevenalter
-region: content_bottom
-weight: -6
+region: footer
+weight: -4
 provider: null
 plugin: 'system_menu_block:footer'
 settings:
