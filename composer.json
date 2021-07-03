@@ -15,13 +15,5 @@
             "role": "Maintainer"
         }
     ],
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://packages.drupal.org/8"
-        }
-    ],
-    "require": {
-        "frankyonnetti/sevenalter_toolbar": "master"
-    }
+    "require": {}
 }
