@@ -1,0 +1,32 @@
+{#
+/**
+ * @file
+ * Seven's theme implementation to display a single Drupal page.
+ *
+ */
+#}
+  <header class="content-header clearfix">
+    <div class="layout-container">
+      {{ page.header }}
+    </div>
+  </header>
+
+  <div class="layout-container">
+    {{ page.pre_content }}
+    {{ page.breadcrumb }}
+    <main class="page-content clearfix" role="main">
+      <div class="visually-hidden"><a id="main-content" tabindex="-1"></a></div>
+      {{ page.highlighted }}
+      {% if page.help %}
+        <div class="help">
+          {{ page.help }}
+        </div>
+      {% endif %}
+      {{ page.content }}
+      {{ page.content_bottom }}
+    </main>
+  </div>
+
+  <footer class="content-footer clearfix">
+    {{ page.footer }}
+  </footer>

@@ -1,0 +1,7 @@
+global:
+  version: 0.1.x
+  css:
+    base:
+      css/styles.css: {}
+  # js:
+  #   js/scripts.js: {}

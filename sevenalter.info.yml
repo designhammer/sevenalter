@@ -1,0 +1,25 @@
+name: Seven Alter
+type: theme
+description: Altered administration theme for Drupal based on Seven.
+package: Other
+core: 8.x
+core_version_requirement: ^8 || ^9
+base theme: seven
+
+libraries:
+  - sevenalter/global
+
+regions:
+  header: 'Header'
+  pre_content: 'Pre-content'
+  breadcrumb: Breadcrumb
+  highlighted: Highlighted
+  help: Help
+  content: Content
+  content_bottom: 'Content bottom'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  footer: 'Footer'
+  sidebar_first: 'First sidebar'
+regions_hidden:
+  - sidebar_first
