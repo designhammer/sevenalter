@@ -8,6 +8,9 @@ base theme: seven
 
 libraries:
   - sevenalter/global
+# libraries-extend:
+#   shortcut/drupal.shortcut:
+#     - sevenalter/drupal.shortcut
 
 regions:
   header: 'Header'

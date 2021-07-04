@@ -1,5 +1,5 @@
 global:
-  version: 0.1.x
+  version: VERSION
   css:
     base:
       css/styles.css: {}
