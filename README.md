@@ -2,7 +2,7 @@
 
 Seven Alter is an admin theme for Drupal.
 
-![Seven Alter|322x240](screenshot.png)
+<img src="screenshot.png" width="441" height="329">
 
 Also checkout the [**Seven Alter Toolbar**](https://github.com/frankyonnetti/sevenalter_toolbar) module. This module is used to display the toolbar theme on user-facing pages.
 
