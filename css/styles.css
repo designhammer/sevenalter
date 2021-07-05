@@ -501,9 +501,25 @@ body {
 .layout-container .system-modules table td details {
   white-space: unset;
 }
-.layout-container .system-modules table td details summary {
+.layout-container .system-modules table td details summary[role=button] {
   cursor: pointer;
 }
+.layout-container .system-modules table td details summary[role=button]::marker {
+  content: "";
+}
+.layout-container .system-modules table td details summary[role=button]::before {
+  content: "";
+  background: transparent url("../images/icons/fa-regular/dark/chevron-right.svg") no-repeat left 5px;
+  background-size: auto 12px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+}
+.layout-container .system-modules table td details[open] summary[role=button]::before {
+  background-image: url("../images/icons/fa-regular/dark/chevron-down.svg");
+  background-size: 12px auto;
+}
+.layout-container .system-modules table tr[style="display: none;"] + tr td,
 .layout-container .system-modules table tr:first-child td {
   border-top: 1px solid #e0e0e0 !important;
 }
@@ -511,6 +527,10 @@ body {
 .layout-container .system-modules table tr.odd {
   border-bottom-style: none;
   background-color: transparent;
+}
+.layout-container .system-modules label,
+.layout-container .system-modules-uninstall label {
+  font-size: 0.875rem;
 }
 .layout-container .system-modules .seven-details__summary {
   border-bottom-color: #e0e0e0;
