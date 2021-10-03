@@ -26,3 +26,7 @@ Add to composer.json (the first part is already there).
 Require the modules.
 
     composer require frankyonnetti/sevenalter
+
+## CSS Overrides
+
+To use CSS overrides for this theme, add a new file here: `css/override-styles.css`
