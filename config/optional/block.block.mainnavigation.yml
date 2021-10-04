@@ -2,20 +2,20 @@ langcode: en
 status: true
 dependencies:
   config:
-    - system.menu.footer
+    - system.menu.main
   module:
     - system
   theme:
     - sevenalter
-id: sevenalter_footer
+id: mainnavigation
 theme: sevenalter
 region: footer
-weight: -3
+weight: -4
 provider: null
-plugin: 'system_menu_block:footer'
+plugin: 'system_menu_block:main'
 settings:
-  id: 'system_menu_block:footer'
-  label: 'Footer menu'
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
   provider: system
   label_display: '0'
   level: 1

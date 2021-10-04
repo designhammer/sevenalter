@@ -7,7 +7,7 @@ dependencies:
     - sevenalter
 id: sevenalter_breadcrumbs
 theme: sevenalter
-region: header
+region: breadcrumb
 weight: -4
 provider: null
 plugin: system_breadcrumb_block

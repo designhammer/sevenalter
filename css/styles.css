@@ -240,6 +240,23 @@ tbody tr {
   border-top-color: #bebebe;
 }
 
+.page-content {
+  margin-bottom: 16px !important;
+}
+
+.content-footer {
+  margin: 0 2.5em 4em;
+}
+.content-footer ul.menu {
+  list-style: none;
+  margin-left: 0;
+  padding-top: 1em;
+}
+.content-footer ul.menu li.menu-item {
+  display: inline;
+  padding-right: 10px;
+}
+
 .cke_reset_all .cke_dialog_body textarea,
 .cke_reset_all .cke_dialog_body input[type=text],
 .cke_reset_all select.cke_dialog_ui_input_select {
@@ -322,16 +339,5 @@ tbody tr {
 h1,
 h2 {
   font-weight: normal;
-}
-
-.region-content-bottom ul.menu {
-  list-style: none;
-  margin-left: 0;
-  padding-top: 35px;
-}
-
-.region-content-bottom ul.menu li.menu-item {
-  display: inline;
-  padding-right: 10px;
 }
 /*# sourceMappingURL=styles.css.map */

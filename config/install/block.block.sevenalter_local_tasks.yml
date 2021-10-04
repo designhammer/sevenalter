@@ -6,7 +6,7 @@ dependencies:
 id: sevenalter_local_tasks
 theme: sevenalter
 region: header
-weight: -2
+weight: -4
 provider: null
 plugin: local_tasks_block
 settings:

@@ -6,7 +6,7 @@ dependencies:
 id: sevenalter_page_title
 theme: sevenalter
 region: header
-weight: -3
+weight: -5
 provider: null
 plugin: page_title_block
 settings:

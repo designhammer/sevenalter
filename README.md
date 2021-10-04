@@ -6,6 +6,7 @@ Seven Alter is an admin theme for Drupal based on Seven admin theme.
 
 Also checkout the [**Seven Alter Toolbar**](https://github.com/frankyonnetti/sevenalter_toolbar) module. This module is used to display the toolbar theme on user-facing pages.
 
+
 ## Add to a Drupal site
 
 [Drupal.org doc: Managing dependencies for a custom project](https://www.drupal.org/docs/develop/using-composer/managing-dependencies-for-a-custom-project)
@@ -27,6 +28,8 @@ Require the modules.
 
     composer require frankyonnetti/sevenalter
 
+
 ## CSS Overrides
 
-To use CSS overrides for this theme, add a new file here: `css/override-styles.css`
+Before enabling this theme, please duplicate this file `css/example.override-styles.css` and rename it `css/override-styles.css`.
+⚠️ Failing to create this file will cause a console error.
