@@ -59,7 +59,7 @@ table .button:hover, table .button:focus,
 }
 
 .content-header {
-  background-color: #eeeeee !important;
+  background-color: #e7e7e7 !important;
 }
 
 div:not(.entity-meta) .seven-details {
@@ -89,6 +89,10 @@ input.form-time,
 textarea.form-textarea,
 fieldset:not(.fieldgroup) {
   background: #fcfcfc !important;
+}
+
+.system-modules div:not(.entity-meta) .seven-details {
+  background-color: #fff;
 }
 
 .system-modules tr.even,
