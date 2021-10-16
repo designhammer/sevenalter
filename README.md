@@ -31,5 +31,5 @@ Require the modules.
 
 ## CSS Overrides
 
-Before enabling this theme, please duplicate this file `css/example.override-styles.css` and rename it `css/override-styles.css`.
+Before enabling this theme, please duplicate this file `css/example.override-styles.css` and rename it `css/sevenalter-overrides.css`.
 ⚠️ Failing to create this file will cause a console error.
