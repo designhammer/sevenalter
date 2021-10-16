@@ -27,15 +27,19 @@ select:hover, select:focus {
   background-color: #f1f1f1;
 }
 
-table .button,
-.views-exposed-form .button {
+a.button--primary {
+  color: #fff;
+}
+
+table .button:not(.button--primary),
+.views-exposed-form .button:not(.button--primary) {
   background: #f6f6f6;
   background: linear-gradient(to bottom, #f6f6f6, #e6e6e6);
   background-color: #f1f1f1;
 }
-table .button:hover, table .button:focus,
-.views-exposed-form .button:hover,
-.views-exposed-form .button:focus {
+table .button:not(.button--primary):hover, table .button:not(.button--primary):focus,
+.views-exposed-form .button:not(.button--primary):hover,
+.views-exposed-form .button:not(.button--primary):focus {
   background: #fcfcfc;
   background: linear-gradient(to bottom, #fcfcfc, #e8e8e8);
   background-color: #f8f8f8;
@@ -60,6 +64,10 @@ table .button:hover, table .button:focus,
 
 .content-header {
   background-color: #e7e7e7 !important;
+  box-shadow: inset 0 -1px 0 0 #cccccc;
+}
+.content-header .page-title {
+  padding-bottom: 1.25rem;
 }
 
 div:not(.entity-meta) .seven-details {
@@ -121,16 +129,17 @@ fieldset:not(.fieldgroup) {
   border-bottom-color: #bebebe;
 }
 
-thead th {
+table h3 {
+  font-size: 0.8125rem;
+}
+table thead th {
   border-color: #d4d4d4 !important;
   background: #f5f5f5 !important;
 }
-
-tr {
+table tr {
   border-bottom-color: #e4e4e4;
 }
-
-tbody tr {
+table tbody tr {
   border-color: #e4e4e4;
 }
 
@@ -147,6 +156,10 @@ tbody tr {
 .tabs.primary a:focus {
   text-decoration: none !important;
   background-color: #fafafa !important;
+}
+
+.is-horizontal .tabs {
+  margin-top: 0 !important;
 }
 
 .tabs.secondary .tabs__tab + .tabs__tab {
@@ -219,7 +232,15 @@ tbody tr {
 }
 
 .ui-dialog .ui-dialog-titlebar {
-  background: #6b6b6b;
+  border-radius: 2px 2px 0 0 !important;
+  background: #e7e7e7 !important;
+}
+.ui-dialog .ui-dialog-title {
+  color: #333 !important;
+}
+.ui-dialog .ui-dialog-titlebar-close {
+  border-color: #e7e7e7 !important;
+  background: #888 !important;
 }
 .ui-dialog .ui-widget-content.ui-dialog-buttonpane {
   background: #f5f5f5 !important;

@@ -6,6 +6,8 @@ core: 8.x
 core_version_requirement: ^8 || ^9
 base theme: seven
 
+version: '0.2.4'
+
 libraries:
   - sevenalter/global
 # libraries-extend:
