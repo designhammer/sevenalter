@@ -3,6 +3,6 @@ global:
   css:
     base:
       css/styles.css: {}
-      css/override-styles.css: {}
+      css/sevenalter-overrides.css: {}
   # js:
   #   js/scripts.js: {}
