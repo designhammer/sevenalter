@@ -1,8 +1,11 @@
-global:
+sevenalter-styles:
   version: VERSION
   css:
     base:
       css/styles.css: {}
       css/sevenalter-overrides.css: {}
-  # js:
-  #   js/scripts.js: {}
+
+sevenalter-scripts:
+  version: VERSION
+  js:
+    js/sevenalter-overrides.js: {}

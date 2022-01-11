@@ -9,10 +9,8 @@ base theme: seven
 version: '0.2.5'
 
 libraries:
-  - sevenalter/global
-# libraries-extend:
-#   shortcut/drupal.shortcut:
-#     - sevenalter/drupal.shortcut
+  - sevenalter/sevenalter-styles
+  - sevenalter/sevenalter-scripts
 
 regions:
   header: 'Header'
